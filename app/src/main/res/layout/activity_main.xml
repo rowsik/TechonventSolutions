@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linear"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/i2">
+
+    <View
+        android:background="#fff"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"/>
+
+    <TextView
+        android:text="WELCOME"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Swastik Cafe"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="#fff"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:textSize="40sp"
+        android:background="@drawable/rounded_text_view"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/menu"
+        android:layout_marginBottom="85dp"/>
+    <TextView
+        android:text="Powered By"
+        android:textSize="12dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/logo"/>
+
+</LinearLayout>
